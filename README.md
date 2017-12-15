@@ -1,5 +1,9 @@
 # hello-world
-test
+
+// change check box color
+event.target.fillColor = event.target.value=="Off" ? color.white : color.gray;
+
+
 //Radio color
 function processCBGroup(doc, ev)
 {
